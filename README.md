@@ -1,8 +1,7 @@
 ## React WorkShop for Carmel6000 Students
 
-# Address setState problem
-# Address unfamiliar code problem
 # Remove all unnecessary code
+# Change input box background color to light yellow (Use cross-files search)
 
 # load src2: 
 
@@ -19,7 +18,6 @@
 # load src4:
    # Address all bugs you can find so that the app will work properly
 
-# Change input box background color to light yellow (Use cross-files search)
 # Add message "Hold on" in between the X button process (See if there is another place in which the same thing is already done)
 # Implement the whole code to be inside a new app - with two boxes, one will include two boxes, one will include the ControlPanel component, and the other will include the ListDisplay
 # Clone todolist.store.js into a new store "anotherstore.store.js" and save all deleted items into that store and show it another box
