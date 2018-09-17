@@ -33,7 +33,6 @@ class EditEntry extends Component {
     
     return (
       <li className='entry-item'>
-        {console.log("This state is",this.state);}
         <input type='text' className='entry-msg' value={this.state.msg} onChange={this.handleInputBox}/>
         <div className='entry-btn'> <button onClick={this.saveEntry}>Save</button></div>
       </li>

@@ -13,7 +13,7 @@ class TodoListStore{
 
     saveEntry = async (index,val) => {
 
-      let data=new Promise((resolve)=>{
+      let data=await new Promise((resolve)=>{
         setTimeout(()=>{
             
             this.todoList[index].msg=val;
@@ -28,7 +28,7 @@ class TodoListStore{
     
     removeEntry = async (index) => {
 
-      let data=new Promise((resolve)=>{
+      let data=await new Promise((resolve)=>{
         setTimeout(()=>{
             
             this.todoList.splice(index,1);
@@ -44,7 +44,7 @@ class TodoListStore{
     addEntriesFromDB = async () => {
       //const response = await fetch(`https://abnormal-weather-api.herokuapp.com/cities/search?city=${city}`);
       //const data = await response.json();
-      let data=new Promise((resolve)=>{
+      let data=await new Promise((resolve)=>{
         setTimeout(()=>{
             resolve([...this.todoList,{msg:'NEW'},{msg:"NEW NEW"}])
         },2000);

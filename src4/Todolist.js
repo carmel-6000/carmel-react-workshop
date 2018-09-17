@@ -29,10 +29,8 @@ class TodoList extends Component {
     return (
       <div style={{width:'400px',margin:'0 auto'}}>
         <h1>TodoList</h1>
-        
-        <ListPanel />
-
-        <ControlPanel />
+        <ListPanel>
+        <ControlPanel>
 
       </div>
     );
